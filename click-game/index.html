@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+       div{
+           background-color: grey;
+           color:beige; 
+           text-align: center;
+           font-family: "consolas";
+           font-size: 40px;
+           border-style:outset;
+           border-width: 5px;
+           border-color: gold;
+           border-radius: 10px;
+           width: 50%;
+           padding: 10px;
+           margin: 10px;
+       }
+
+       .btn{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            background-color: gold;
+            padding: 5px;
+            text-align: center;
+            }
+
+    </style>
+
+</head>
+<body>
+    <div>
+    <button class="btn" onclick="reise()">Click!</button>
+    <span id="points">Coints: </span> <span>$</span> <span id="result">0</span> <br/> <br/>
+    <button class="btn" onclick="buyWorker()">Buy worker</button> <span> $10</span>
+    <span id="workers">Workers:</span> <span id="resultWorkers">0</span>
+   <p id="check"></p>
+   </div>
+  <script src="main.js"></script>
+</body>
+</html>
